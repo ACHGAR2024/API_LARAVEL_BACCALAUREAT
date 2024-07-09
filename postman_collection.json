@@ -1,0 +1,374 @@
+{
+    "info": {
+        "name": "Projet_API_baccalaureats API",
+        "description": "Postman collection for Projet_API_baccalaureats API",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "User",
+            "item": [
+                {
+                    "name": "generated::PHSwfNrkuw08BtuG",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/user",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "user"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Students",
+            "item": [
+                {
+                    "name": "students.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/students",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "students"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "students.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/students",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "students"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "students.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/students\/{student}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "students",
+                                "{student}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "students.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/students\/{student}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "students",
+                                "{student}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "students.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/students\/{student}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "students",
+                                "{student}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Exams",
+            "item": [
+                {
+                    "name": "exams.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/exams",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "exams"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "exams.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/exams",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "exams"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "exams.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/exams\/{exam}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "exams",
+                                "{exam}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "exams.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/exams\/{exam}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "exams",
+                                "{exam}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "exams.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/exams\/{exam}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "exams",
+                                "{exam}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Results",
+            "item": [
+                {
+                    "name": "results.index",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/results",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "results"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "results.store",
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/results",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "results"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "results.show",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/results\/{result}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "results",
+                                "{result}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "results.update",
+                    "request": {
+                        "method": "PUT",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/results\/{result}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "results",
+                                "{result}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "results.destroy",
+                    "request": {
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": ""
+                        },
+                        "url": {
+                            "raw": "http:\/\/127.0.0.1:8000\/api\/results\/{result}",
+                            "host": [
+                                "http:\/\/127.0.0.1:8000"
+                            ],
+                            "path": [
+                                "api",
+                                "results",
+                                "{result}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
